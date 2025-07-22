@@ -1,2 +1,58 @@
 Assignment 1: Initialize a new Git repository in a directory of your choice. Add a simple text file to the repository and make the first commit.
 
+Steps:
+1. Create a new repo in GitHub
+2.create  a file in local directory /d/git_repositories/Wipro_day2_assignment1
+3.Add some content to it
+4.Type commands to add and commit
+5.Push to Github
+
+--------------------------------------------------------------------------------------------------------------------
+shiva@Shiva95 MINGW64 /d/git_repositories/Wipro_day2_assignment1
+$ git init 
+Initialized empty Git repository in D:/git_repositories/Wipro_day2_assignment1/.git/
+
+--------------------------------------------------------------------------------------------------------------------
+
+shiva@Shiva95 MINGW64 /d/git_repositories/Wipro_day2_assignment1 (main)
+$ git add .
+
+--------------------------------------------------------------------------------------------------------------------
+
+shiva@Shiva95 MINGW64 /d/git_repositories/Wipro_day2_assignment1 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   day2.txt
+
+--------------------------------------------------------------------------------------------------------------------
+
+shiva@Shiva95 MINGW64 /d/git_repositories/Wipro_day2_assignment1 (main)
+$ git commit -m "first commit done"
+[main (root-commit) 532c870] first commit done
+ 1 file changed, 2 insertions(+)
+ create mode 100644 day2.txt
+
+--------------------------------------------------------------------------------------------------------------------
+
+shiva@Shiva95 MINGW64 /d/git_repositories/Wipro_day2_assignment1 (main)
+$ git remote add origin https://github.com/Shiva-Pranathi/Day2_Assignment1
+
+--------------------------------------------------------------------------------------------------------------------
+
+shiva@Shiva95 MINGW64 /d/git_repositories/Wipro_day2_assignment1 (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 327 bytes | 163.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Shiva-Pranathi/Day2_Assignment1
+ * [new branch]      main -> main
+
+
